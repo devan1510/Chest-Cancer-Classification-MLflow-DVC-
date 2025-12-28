@@ -1,15 +1,24 @@
-End-to-End-Chest-Cancer-Classification-using-MLflow-DVC
-Workflows
+**End-to-End-Chest-Cancer-Classification-using-MLflow-DVC**
+
+# Workflows
+
 Update config.yaml
+
 Update params.yaml
+
 Update the entity
+
 Update the configuration manager in src config
+
 Update the components
+
 Update the pipeline
+
 Update the main.py
+
 Update the dvc.yaml
 
-MLflow:
+# MLflow:
 
 Run this to export as env variables:
 
@@ -19,22 +28,22 @@ export MLFLOW_TRACKING_USERNAME=devan1510
 
 export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
 
-DVC Commands:
+# DVC Commands:
 
 dvc init
 dvc repro
 dvc dag
 
-AWS-CICD-Deployment-with-Github-Actions
+# AWS-CICD-Deployment-with-Github-Actions
 1. Login to AWS console.
 2. Create IAM user for deployment
 
-1. EC2 access 
+EC2 access 
 
-2. ECR: Elastic Container registry 
+ECR: Elastic Container registry 
 
 
-#Description: Deployment
+# Deployment
 
 1. Build docker image of the source code
 
@@ -53,7 +62,7 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_REGION = 
 
 AWS_ECR_LOGIN_URI = 
 
